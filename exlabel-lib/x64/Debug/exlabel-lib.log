@@ -1,0 +1,2 @@
+﻿  exlabel.cpp
+C:\Users\exebyte\source\repos\exlabel-lib\exlabel-lib\exlabel\src\exlabel.cpp(17,1): error C4716: 'Exlabel::extractLabel_c': must return a value
