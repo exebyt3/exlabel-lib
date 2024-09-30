@@ -42,6 +42,38 @@ text2
 text3
 ```
 
+### Instalation
+
+To import the library into your Visual Studio project, follow these steps:
+
+
+
+0. **Building the library or download**:
+   - Build .lib yourself or download [Release](https://github.com/exebyt3/exlabel-lib/releases). 
+
+2. **Open Project Properties**:
+   - Go to the Visual Studio project where you want to import the library.
+
+3. **Set Additional Include Directories**:
+   - Navigate to **Project Properties** -> **C/C++** -> **General**.
+   - In the **Additional Include Directories** field, enter the path to the library's `.h` file without specifying the file itself.  
+     [+] **Correct:** `C:\Desktop\exlabel\include\`  
+     [-] **Incorrect:** `C:\Desktop\exlabel\include\exlabel.h`
+
+4. **Set Additional Library Directories**:
+   - Go to **Linker** -> **General**.
+   - In the **Additional Library Directories** field, enter the path to the library's `.lib` file without specifying the file itself.
+
+5. **Set Additional Dependencies**:
+   - Navigate to **Linker** -> **Input**.
+   - In the **Additional Dependencies** field, enter `exlabel.lib`.
+
+6. **Include the Library in Your Project**:
+   - Finally, include the `.h` file of the library in your project with the following directive:
+     ```cpp
+     #include "exlabel.h"
+     ```
+
 ### Community
 
 If you have any ideas for this project, feel free to post them in [Issues](https://github.com/exebyt3/exlabel-lib/issues)
