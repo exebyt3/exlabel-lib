@@ -1,4 +1,3 @@
-```markdown
 ## Overview
 
 With this library, you can easily retrieve values from labels (keys) in a configuration file.
@@ -34,5 +33,4 @@ Additionally, if you need to retrieve all values from all labels (keys), you can
 
 ```cpp
 Exlabel::extractLabel(std::string label, char separator, bool takeSeparator);
-```
 ```
