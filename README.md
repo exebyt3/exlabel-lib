@@ -34,3 +34,10 @@ Additionally, if you need to retrieve all values from all labels (keys), you can
 ```cpp
 Exlabel::extractLabel(std::string label, char separator, bool takeSeparator);
 ```
+
+Then the output you get is:
+```cfg
+text
+text2
+text3
+```
