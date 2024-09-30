@@ -41,3 +41,11 @@ text
 text2
 text3
 ```
+
+### Community
+
+If you have any ideas for this project, feel free to post them in [Issues](https://github.com/exebyt3/exlabel-lib/issues)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
