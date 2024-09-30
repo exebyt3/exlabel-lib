@@ -24,7 +24,7 @@ Exlabel::findAndExtract(std::string label, std::string keyword, char separator, 
 
 - `std::string label`: The text or configuration from which you want to find and extract the value associated with the label (key).
 - `std::string keyword`: The name of the label (key) from which you want to extract the value.
-- `char separator`: The character that separates the label from its value (in the example, it is `=`).
+- `char separator`: The character that separates the label from its value (in the example, it is `=text2`).
 - `bool takeSeparator`: A boolean that determines whether to include the separator with the value:
   - `0` - output will be `text2`
   - `1` - output will be `=text2`
