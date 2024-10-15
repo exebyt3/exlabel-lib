@@ -74,7 +74,7 @@ To import the library into your Visual Studio project, follow these steps:
      #include "exlabel.h"
      ```
 
-### Community
+## Community
 
 If you have any ideas for this project, feel free to post them in [Issues](https://github.com/exebyt3/exlabel-lib/issues)
 
